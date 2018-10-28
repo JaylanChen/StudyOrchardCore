@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 
 namespace StudyOrchardCore
 {
@@ -42,7 +43,7 @@ namespace StudyOrchardCore
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env,ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
@@ -53,6 +54,8 @@ namespace StudyOrchardCore
             //{
             //    await context.Response.WriteAsync("Hello World!");
             //});
+
+            
 
             var builder = new ConfigurationBuilder()
                 .SetBasePath(env.ContentRootPath)
