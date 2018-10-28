@@ -14,4 +14,8 @@
     <PackageReference Include="OrchardCore.Application.Cms.Targets" Version="1.0.0-beta3-69230" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Study.MyModule\Study.MyModule.csproj" />
+  </ItemGroup>
+
 </Project>
