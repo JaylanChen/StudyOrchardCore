@@ -10,9 +10,9 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
-    <PackageReference Include="OrchardCore.Application.Cms.Targets" Version="1.0.0-beta3-69230" />
-    <PackageReference Include="OrchardCore.Logging.NLog" Version="1.0.0-beta3-69230" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="OrchardCore.Application.Cms.Targets" Version="1.0.0-beta3-69807" />
+    <PackageReference Include="OrchardCore.Logging.NLog" Version="1.0.0-beta3-69807" />
   </ItemGroup>
 
   <ItemGroup>
